@@ -1,0 +1,115 @@
+{
+	"IRT1.json":{
+		"EchoTime":"0.014",
+		"FlipAngle":"3",
+		"MagneticFieldStrength":"3",
+		"Manufacturer":"Siemens",
+		"ManufacturerModelName":"Skyra",
+		"PulseSequenceType":"IR",
+		"RepetitionTime":"2.550"
+	},
+	"dataset_description.json":{
+		"BIDSVersion":"1.5.0",
+		"DatasetType":"raw",
+		"Description":"This is a sample dataset from an Inversion Recovery (IR) scan to compute T1 maps (IRT1).",
+		"Name":"BEP001 example dataset 0X (Inversion Recovery T1 mapping)",
+		"ReferencesAndLinks":[
+			"https://qmrlab.org/jekyll/2018/10/23/T1-mapping-inversion-recovery.html",
+			"https://qmrlab.readthedocs.io/en/master/methods.html#inversion_recovery"
+		]
+	},
+	"derivatives":{
+		"qMRLab":{
+			"dataset_description.json":{
+				"Name":"BEP001 example dataset 0X (Variable Flip Angle)",
+				"BIDSVersion":"1.5.0",
+				"DatasetType":"derivative",
+				"Authors":[
+					"Agah Karakuzu"
+				],
+				"GeneratedBy":[
+					{
+						"Name":"qMRLab",
+						"Version":"2.4.1"
+					},
+					{
+						"Name":"Manual",
+						"Description":"Adjusted to conform to BIDS Derivatives"
+					}
+				]
+			},
+			"sub-01":{
+				"anat":{
+					"sub-01_M0map.json":{
+						"RawSources":[
+							"sub-01/anat/sub-01_inv-01_IRT1.nii.gz",
+							"sub-01/anat/sub-01_inv-02_IRT1.nii.gz",
+							"sub-01/anat/sub-01_inv-03_IRT1.nii.gz",
+							"sub-01/anat/sub-01_inv-04_IRT1.nii.gz"
+						],
+						"MagneticFieldStrength":"3",
+						"Manufacturer":"Siemens",
+						"ManufacturerModelName":"Skyra",
+						"PulseSequenceType":"IR",
+						"RepetitionTime":"2.250",
+						"EchoTime":"0.014",
+						"InversionTime":[
+							"0.05",
+							"0.4",
+							"1.1",
+							"2.5"
+						],
+						"EstimationPaper":"Barral et. al.MRM, 2010",
+						"EstimationAlgorithm":"RDNLLS-PR",
+						"EstimationSoftwareName":"qMRLab",
+						"EstimationSoftwareLanguage":"MATLAB",
+						"EstimationSoftwareVersion":"2.3.0",
+						"EstimationSoftwareEnv":"OSX 10.14"
+					},
+					"sub-01_T1map.json":{
+						"RawSources":[
+							"sub-01/anat/sub-01_inv-01_IRT1.nii.gz",
+							"sub-01/anat/sub-01_inv-02_IRT1.nii.gz",
+							"sub-01/anat/sub-01_inv-03_IRT1.nii.gz",
+							"sub-01/anat/sub-01_inv-04_IRT1.nii.gz"
+						],
+						"MagneticFieldStrength":"3",
+						"Manufacturer":"Siemens",
+						"ManufacturerModelName":"Skyra",
+						"PulseSequenceType":"IR",
+						"RepetitionTime":"2.250",
+						"EchoTime":"0.014",
+						"InversionTime":[
+							"0.05",
+							"0.4",
+							"1.1",
+							"2.5"
+						],
+						"EstimationPaper":"Barral et. al.MRM, 2010",
+						"EstimationAlgorithm":"RDNLLS-PR",
+						"EstimationSoftwareName":"qMRLab",
+						"EstimationSoftwareLanguage":"MATLAB",
+						"EstimationSoftwareVersion":"2.3.0",
+						"EstimationSoftwareEnv":"OSX 10.14"
+					}
+				}
+			}
+		}
+	},
+	"sub-01":{
+		"anat":{
+			"sub-01_inv-01_IRT1.json":{
+				"InversionTime":"0.050"
+			},
+			"sub-01_inv-02_IRT1.json":{
+				"InversionTime":"0.4"
+			},
+			"sub-01_inv-03_IRT1.json":{
+				"InversionTime":"1.1"
+			},
+			"sub-01_inv-04_IRT1.json":{
+				"InversionTime":"2.5"
+			}
+		}
+	}
+}

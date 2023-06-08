@@ -1,0 +1,42 @@
+{
+	"MEGRE.json":{
+		"MagneticFieldStrength":"3",
+		"Manufacturer":"Siemens",
+		"ManufacturerModelName":"TrioTim",
+		"PulseSequenceType":"GR"
+	},
+	"dataset_description.json":{
+		"BIDSVersion":"1.5.0",
+		"DatasetType":"raw",
+		"Description":"This is a sample dataset from a Multi-Echo Gradient-Echo (MEGRE) scan that can be used for a variety purposes including T2star mapping (parametric) or weighted averaging (non-parametric).",
+		"Name":"BEP001 example dataset 0X (Multi-Echo Gradient-Echo)"
+	},
+	"sub-01":{
+		"anat":{
+			"sub-01_echo-01_MEGRE.json":{
+				"EchoTime":"0.02"
+			},
+			"sub-01_echo-02_MEGRE.json":{
+				"EchoTime":"0.04"
+			},
+			"sub-01_echo-03_MEGRE.json":{
+				"EchoTime":"0.06"
+			},
+			"sub-01_echo-04_MEGRE.json":{
+				"EchoTime":"0.08"
+			},
+			"sub-01_echo-05_MEGRE.json":{
+				"EchoTime":"0.1"
+			},
+			"sub-01_echo-06_MEGRE.json":{
+				"EchoTime":"0.12"
+			},
+			"sub-01_echo-07_MEGRE.json":{
+				"EchoTime":"0.14"
+			},
+			"sub-01_echo-08_MEGRE.json":{
+				"EchoTime":"0.16"
+			}
+		}
+	}
+}

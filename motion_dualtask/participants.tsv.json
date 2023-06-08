@@ -1,0 +1,32 @@
+{
+	"participant_id":[
+		"sub-07",
+		"sub-10",
+		"sub-13",
+		"sub-18",
+		"sub-20"
+	],
+	"nr":[7,10,13,18,20],
+	"age":[21,25,76,27,71],
+	"sex":[
+		"M",
+		"M",
+		"F",
+		"M",
+		"F"
+	],
+	"group":[
+		"young",
+		"young",
+		"old",
+		"young",
+		"old"
+	],
+	"handedness":[
+		"R",
+		"R",
+		"R",
+		"R",
+		"R"
+	]
+}

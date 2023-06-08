@@ -1,0 +1,133 @@
+{
+	"acq-NODDI10DIR_dwi.json":{
+		"EchoTime":0.098,
+		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mÿ1",
+		"MagneticFieldStrength":1.5,
+		"Manufacturer":"Siemens",
+		"ManufacturersModelName":"Avanto ",
+		"PulseSequenceType":"SE-EPI",
+		"RepetitionTime":8.300000000000001
+	},
+	"acq-NODDI33DIR_dwi.json":{
+		"EchoTime":0.098,
+		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mÿ1",
+		"MagneticFieldStrength":1.5,
+		"Manufacturer":"Siemens",
+		"ManufacturersModelName":"Avanto ",
+		"PulseSequenceType":"SE-EPI",
+		"RepetitionTime":8.300000000000001
+	},
+	"acq-NODDI66DIR_dwi.json":{
+		"EchoTime":0.098,
+		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mÿ1",
+		"MagneticFieldStrength":1.5,
+		"Manufacturer":"Siemens",
+		"ManufacturersModelName":"Avanto ",
+		"PulseSequenceType":"SE-EPI",
+		"RepetitionTime":8.300000000000001
+	},
+	"acq-y224_T1w.json":{
+		"EchoTime":0.494,
+		"FlipAngle":15,
+		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mÿ1",
+		"MagneticFieldStrength":1.5,
+		"Manufacturer":"Siemens",
+		"ManufacturersModelName":"Avanto ",
+		"PulseSequenceType":"3D-FLASH",
+		"RepetitionTime":0.011
+	},
+	"acq-y232_T1w.json":{
+		"EchoTime":0.0494,
+		"FlipAngle":15,
+		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mÿ1",
+		"MagneticFieldStrength":1.5,
+		"Manufacturer":"Siemens",
+		"ManufacturersModelName":"Avanto ",
+		"PulseSequenceType":"3D-FLASH",
+		"RepetitionTime":0.011
+	},
+	"dataset_description.json":{
+		"Acknowledgements":"Thanks to C.R. Pernet for preparing the dataset following BIDS",
+		"Authors":[
+			"F. Deligianni",
+			"M. Centeno",
+			"D.W. Carmichael",
+			"G.H. Zhang",
+			"C.A. Clark",
+			" J.D. Clayden "
+		],
+		"BIDSVersion":"v1.1.X",
+		"License":" Creative Commons Attribution 4.0 International License",
+		"Name":"EEG, fMRI and NODDI at rest'",
+		"ReferencesAndLinks":[
+			"F. Deligianni, M. Centeno, D.W. Carmichael and J.D. Clayden (2014). Relating resting-state fMRI and EEG whole-brain connectomes across frequency bands. Frontiers in Neuroscience 8:258",
+			"F. Deligianni, D.W. Carmichael, Gary H. Zhang, C.A. Clark and J.D. Clayden (2016). NODDI and tensor-based microstructural indices as predictors of functional connectivity. PLoS ONE 11(4):e0153404"
+		],
+		"SourceDatasetsURLs":" https://osf.io/94c5t/"
+	},
+	"derivatives":{
+		"sub-32":{
+			"eeg":[]
+		},
+		"sub-35":{
+			"eeg":[]
+		},
+		"sub-36":{
+			"eeg":[]
+		}
+	},
+	"participants.tsv":{
+		"participant_id":[
+			"sub-32",
+			"sub-35",
+			"sub-36"
+		]
+	},
+	"sub-32":{
+		"anat":[],
+		"dwi":[],
+		"eeg":[],
+		"func":[]
+	},
+	"sub-35":{
+		"anat":[],
+		"dwi":[],
+		"eeg":[],
+		"func":[]
+	},
+	"sub-36":{
+		"anat":[],
+		"dwi":[],
+		"eeg":[],
+		"func":[]
+	},
+	"task-rest_bold.json":{
+		"EchoTime":0.03,
+		"FlipAngle":75,
+		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mÿ1",
+		"MagneticFieldStrength":1.5,
+		"Manufacturer":"Siemens",
+		"ManufacturersModelName":"Avanto ",
+		"PhaseEncodingDirection":"j-",
+		"PulseSequenceType":"GE-EPI",
+		"RepetitionTime":2.16,
+		"SliceEncodingDirection":"k",
+		"SliceTiming":[0,0.0725,0.145,0.2175,0.29,0.3625,0.435,0.5075,0.58,0.6525,0.7225,0.795,0.8675,0.9399999999999999,1.0125,1.085,1.1575,1.23,1.3025,1.375,1.4475,1.52,1.59,1.6625,1.735,1.8075,1.88,1.9525,2.025,2.0975],
+		"TaskName":"rest"
+	},
+	"task-rest_eeg.json":{
+		"CapManufacturersModelName":"BrainCap MR",
+		"ECGChannelCount":1,
+		"EEGChannelCount":64,
+		"EEGReference":"FCz",
+		"EMGChannelCount":0,
+		"EOGChannelCount":0,
+		"ManufacturersModelName":"BrainAmp MR",
+		"PowerLineFrequency":50,
+		"RecordingType":"continuous",
+		"SamplingFrequency":5000,
+		"SoftwareFilters":"n/a",
+		"TaskDescription":"Subjects were asked to remain still and their head was immobilised using a vacuum cushion during scanning",
+		"TaskName":"rest"
+	}
+}

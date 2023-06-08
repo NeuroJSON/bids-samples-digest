@@ -1,0 +1,92 @@
+{
+	"MP2RAGE.json":{
+		"FlipAngle":5,
+		"MagneticFieldStrength":7,
+		"NumberShots":159,
+		"RepetitionTimeExcitation":0.0062,
+		"RepetitionTimePreparation":5.5
+	},
+	"dataset_description.json":{
+		"Authors":[
+			"Gilles Hollander",
+			"Wietske van der Zwaag"
+		],
+		"BIDSVersion":"1.5.0",
+		"DatasetType":"raw",
+		"License":"CC0",
+		"Name":"Example MP2RAGE dataset",
+		"ReferencesAndLinks":[
+			"https://qmrlab.org/2019/04/08/T1-mapping-mp2rage.html",
+			"https://qmrlab.readthedocs.io/en/master/methods.html#mp2rage",
+			"https://pymp2rage.readthedocs.io/en/latest/",
+			"https://github.com/JosePMarques/MP2RAGE-related-scripts"
+		]
+	},
+	"derivatives":{
+		"pymp2rage":{
+			"dataset_description.json":{
+				"Name":"PyMP2RAGE estimate",
+				"BIDSVersion":"1.5.0",
+				"DatasetType":"derivative",
+				"License":"CC0",
+				"SourceDatasets":[
+					"../../"
+				],
+				"GeneratedBy":[
+					{
+						"Name":"pymp2rage",
+						"Version":"v0.1"
+					},
+					{
+						"Name":"Manual",
+						"Description":"Adjusted to conform to BIDS Derivatives"
+					}
+				]
+			},
+			"sub-1":{
+				"anat":{
+					"sub-1_T1map.json":{
+						"RawSources":[
+							"sub-1/anat/sub-1_inv-1_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_inv-1_part-phase_MP2RAGE.nii",
+							"sub-1/anat/sub-1_inv-2_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_inv-2_part-phase_MP2RAGE.nii"
+						],
+						"EstimationReference":"Marques et al., 2010",
+						"EstimationAlgorithm":"MP2RAGE T1 map",
+						"EstimationSoftwareName":"pymp2rage",
+						"EstimationSoftwareVer":"v0.1",
+						"EstimationSoftwareLang":"Python 3.6",
+						"EstimationSoftwareEnv":"Mac OS X 10.14.5"
+					},
+					"sub-1_UNIT1.json":{
+						"RawSources":[
+							"sub-1/anat/sub-1_inv-1_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_inv-1_part-phase_MP2RAGE.nii",
+							"sub-1/anat/sub-1_inv-2_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_inv-2_part-phase_MP2RAGE.nii"
+						],
+						"EstimationReference":"Marques et al., 2010",
+						"EstimationAlgorithm":"MP2RAGE T1UNI",
+						"EstimationSoftwareName":"pymp2rage",
+						"EstimationSoftwareVer":"v0.1",
+						"EstimationSoftwareLang":"Python 3.6",
+						"EstimationSoftwareEnv":"Mac OS X 10.14.5"
+					}
+				}
+			}
+		}
+	},
+	"sub-1":{
+		"anat":{
+			"sub-1_inv-1_MP2RAGE.json":{
+				"FlipAngle":5,
+				"InversionTime":0.8
+			},
+			"sub-1_inv-2_MP2RAGE.json":{
+				"FlipAngle":7,
+				"InversionTime":2.7
+			}
+		}
+	}
+}

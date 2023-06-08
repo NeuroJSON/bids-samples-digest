@@ -1,0 +1,9 @@
+{
+	"filename":[
+		"motion/sub-pp003_task-backwards_tracksys-imu_motion.tsv",
+		"motion/sub-pp003_task-backwards_tracksys-omc_motion.tsv",
+		"motion/sub-pp003_task-obstacleHigh_tracksys-imu_motion.tsv",
+		"motion/sub-pp003_task-obstacleHigh_tracksys-omc_motion.tsv"
+	],
+	"acq_time":[2023,-2,-17,2023,-2,-17,2023,-2,-17,2023,-2,-17]
+}

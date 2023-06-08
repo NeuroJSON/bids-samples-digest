@@ -1,0 +1,141 @@
+{
+	"dataset_description.json":{
+		"Acknowledgements":"We thank the employees of the Brain Imaging Core of the NIMH-funded Conte Translational Neuroscience Center, the Kreitchman PET Center, and the Columbia University Radioligand Laboratory for expert help. This work was supported in part by an investigator-initiated grant from Pfizer Inc.",
+		"Authors":[
+			"Martin Norgaard",
+			"Christine Delorenzo",
+			"Ramin Parsey"
+		],
+		"BIDSVersion":"1.6.0",
+		"DatasetDOI":"",
+		"HowToAcknowledge":"Ramin Parsey, Christine Delorenzo",
+		"License":"CCO license",
+		"Name":"[11C]DASB data set"
+	},
+	"participants.json":{
+		"participant_id":{
+			"Description":"label identifying a particular subject",
+			"LongName":"Participant Id"
+		},
+		"sex":{
+			"LongName":"Sex"
+		}
+	},
+	"participants.tsv":{
+		"participant_id":[
+			"sub-01"
+		],
+		"sex":[
+			"F"
+		]
+	},
+	"sub-01":{
+		"ses-01":{
+			"anat":[],
+			"pet":{
+				"sub-01_ses-01_pet.json":{
+					"Manufacturer":"Siemens",
+					"ManufacturersModelName":"Siemens HR+",
+					"BodyPart":"Brain",
+					"Units":"Bq/mL",
+					"TracerName":"DASB",
+					"TracerRadionuclide":"C11",
+					"TracerMolecularWeight":282.39,
+					"TracerMolecularWeightUnits":"g/mol",
+					"TracerInjectionType":"bolus",
+					"InjectedRadioactivity":694.86,
+					"InjectedRadioactivityUnits":"MBq",
+					"InjectedMass":3.57,
+					"InjectedMassUnits":"ug",
+					"SpecificRadioactivity":194.64,
+					"SpecificRadioactivityUnits":"MBq/ug",
+					"MolarActivity":55,
+					"MolarActivityUnits":"MBq/nmol",
+					"ModeOfAdministration":"bolus",
+					"ScanStart":0,
+					"InjectionStart":0,
+					"InjectionEnd":30,
+					"TimeZero":"12:24:37",
+					"FrameTimesStart":[0,20,40,60,120,180,240,360,480,600,900,1200,1800,2400,3000,3600,4200,4800,5400,6000,6600],
+					"FrameDuration":[20,40,60,120,180,240,360,480,600,900,1200,1800,2400,3000,3600,4200,4800,5400,6000,6600,7200],
+					"AcquisitionMode":"list mode",
+					"ImageDecayCorrected":true,
+					"ImageDecayCorrectionTime":0,
+					"ReconMethodName":"Vendor",
+					"ReconMethodParameterLabels":[
+						"Zoom factor"
+					],
+					"ReconMethodParameterUnits":[
+						"none"
+					],
+					"ReconMethodParameterValues":4,
+					"ReconFilterType":[
+						"Shepp 0.5",
+						"All-pass 0.4"
+					],
+					"ReconFilterSize":[2.5,2],
+					"AttenuationCorrection":"Transmission data, and scatter was corrected using a model-based method",
+					"AttenuationCorrectionMethodReference":"Parsey et al. 2006, Metabolite considerations in the in vivo quantification of serotonin transporters using 11C-DASB and PET in humans, Journal of Nuclear Medicine"
+				},
+				"sub-01_ses-01_recording-manual_blood.json":{
+					"PlasmaAvail":true,
+					"WholeBloodAvail":false,
+					"MetaboliteAvail":true,
+					"MetaboliteMethod":"Bioscan g-detector",
+					"MetaboliteRecoveryCorrectionApplied":false,
+					"DispersionCorrected":false,
+					"time":{
+						"Description":"Time in relation to time zero defined by the _pet.json",
+						"Units":"s"
+					},
+					"plasma_radioactivity":{
+						"Description":"Radioactivity in plasma samples",
+						"Units":"Bq/ml"
+					},
+					"metabolite_parent_fraction":{
+						"Description":"Parent fraction of the radiotracer. The metabolite and unmetabolized parent compound were collected in separate vials, and radioactivity was quantified using a Bioscan g-detector after correction for background radioactivity.",
+						"Units":"unitless"
+					}
+				},
+				"sub-01_ses-01_recording-manual_blood.tsv":{
+					"time":[0,10.0000002,19.9999998,30,40.002,49.998,60,70.002,79.998,90,100.002,109.998,120,139.998,160.002,180,199.998,220.002,240,360,480,720,960,1200,1800,2400,3000,3600,4800,5400,6000,7200],
+					"plasma_radioactivity":[0,22.62883,57.2612,1836.01696,14344.6921,23636.8654,31688.6211,33226.4655,26847.9352,20327.9066,17169.8248,15198.5614,14509.6888,13080.8694,11937.2848,11422.8402,10905.5509,10870.4076,16745.3205,8193.322550000001,9180.876969999999,8957.528689999999,8500.145049999999,8846.04732,8805.56451,8707.263650000001,9078.7899,8356.09036,8095.22519,7480.43763,7099.9559,6279.54565],
+					"metabolite_parent_fraction":[
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						0.50774032,
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						"n/a",
+						0.55283186,
+						"n/a",
+						0.35144152,
+						"n/a",
+						"n/a",
+						0.1507185,
+						"n/a",
+						0.10388412,
+						"n/a",
+						0.09530672,
+						"n/a"
+					]
+				}
+			}
+		}
+	}
+}

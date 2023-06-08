@@ -1,0 +1,11 @@
+{
+	"sample_id":[
+		"sample-A"
+	],
+	"participant_id":[
+		"sub-01"
+	],
+	"sample_type":[
+		"tissue"
+	]
+}

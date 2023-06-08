@@ -1,0 +1,13 @@
+{
+	"ImageHeader":{
+		"Filename":"sub-01_sample-B_stain-LFB_chunk-01_SPIM.ome.tif",
+		"FileModDate":"17-Apr-2023 16:10:47",
+		"FileSize":2668,
+		"Format":"tif",
+		"FormatVersion":[],
+		"Width":1,
+		"Height":1,
+		"BitDepth":8,
+		"ColorType":"grayscale"
+	}
+}

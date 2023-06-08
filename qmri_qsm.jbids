@@ -1,0 +1,78 @@
+{
+	"dataset_description.json":{
+		"BIDSVersion":"1.5.0",
+		"DatasetType":"raw",
+		"GeneratedBy":[
+			{
+				"Name":"qMRLab",
+				"Version":"2.4.1"
+			},
+			{
+				"Description":"Adjusted to conform to BIDS Derivatives",
+				"Name":"Manual"
+			}
+		],
+		"Name":"Example QSM dataset",
+		"ReferencesAndLinks":[
+			"https://qmrlab.org",
+			"https://onlinelibrary.wiley.com/doi/full/10.1002/jmri.24365",
+			"https://qmrlab.readthedocs.io/en/master/methods.html#qsm"
+		]
+	},
+	"derivatives":{
+		"qMRLab":{
+			"dataset_description.json":{
+				"Name":"BEP001 example dataset 0X (Fast Quantitative Susceptibility Mapping (QSM))",
+				"BIDSVersion":"1.5.0",
+				"DatasetType":"derivative",
+				"Authors":[
+					"Agah Karakuzu"
+				],
+				"SourceDatasets":[
+					"../../"
+				],
+				"GeneratedBy":{
+					"Name":"Manual",
+					"Description":"Adapted from existing example, adjusted to conform to BIDS Derivatives"
+				},
+				"Description":"This is a sample dataset (with magnitude and phase parts reconstructed) from a high resolution 3D GRE scan, intended for QSM."
+			},
+			"sub-01":{
+				"anat":{
+					"sub-01_Chimap.json":{
+						"RawSources":[
+							"anat/sub-01_part-mag_T1w.nii.gz",
+							"anat/sub-01_part-phase_T1w.nii.gz"
+						],
+						"MagneticFieldStrength":"3",
+						"Manufacturer":"Siemens",
+						"ManufacturerModelName":"TrioTim",
+						"EstimationPaper":"Bilgic et. al.MRM, 2014 doi:10.1002/mrm.25029",
+						"EstimationAlgorithm":"qsm_sb",
+						"EstimationSoftwareName":"qMRLab",
+						"EstimationSoftwareLanguage":"MATLAB",
+						"EstimationSoftwareVersion":"2.4.0",
+						"EstimationSoftwareEnv":"OSX 10.14"
+					}
+				}
+			}
+		}
+	},
+	"sub-01":{
+		"anat":{
+			"sub-01_T1w.json":{
+				"MagneticFieldStrength":"3",
+				"Manufacturer":"Siemens",
+				"ManufacturerModelName":"TrioTim",
+				"PulseSequenceType":"GR",
+				"MRAcquisitionType":"3D",
+				"EchoTime":"0.0081",
+				"AcquisitionVoxelSize":[
+					"0.6",
+					"0.6",
+					"0.6"
+				]
+			}
+		}
+	}
+}

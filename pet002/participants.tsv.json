@@ -1,0 +1,13 @@
+{
+	"participant_id":[
+		"sub-01",
+		"sub-02"
+	],
+	"height":[163.5,170],
+	"weight":[51,51.2],
+	"age":[21.5086,20.7255],
+	"gender":[
+		"female",
+		"female"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"trial":[
+		"congruent",
+		"incongruent"
+	],
+	"response":[
+		"red",
+		"red"
+	],
+	"reaction_time":[1.435,1.739],
+	"stim_file":[
+		"images/word-red_color-red.jpg",
+		"images/word-red_color-blue.jpg"
+	]
+}

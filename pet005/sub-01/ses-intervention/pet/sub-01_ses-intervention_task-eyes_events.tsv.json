@@ -1,0 +1,8 @@
+{
+	"onset":[2100,3000],
+	"duration":[900,1860],
+	"trial_type":[
+		"eyes closed",
+		"eyes open"
+	]
+}

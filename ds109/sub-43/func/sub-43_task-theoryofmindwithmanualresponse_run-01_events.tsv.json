@@ -1,0 +1,30 @@
+{
+	"onset":[10,22,38,54,70,80,96,108,124,140,156,168,184,194,210,224,240,254,270,280,296,310,326,342],
+	"duration":[10,6,10,6,10,6,10,6,10,6,10,6,10,6,10,6,10,6,10,6,10,6,10,6],
+	"trial_type":[
+		"false photo story",
+		"false photo question",
+		"false photo story",
+		"false photo question",
+		"false photo story",
+		"false photo question",
+		"false belief story",
+		"false belief question",
+		"false belief story",
+		"false belief question",
+		"false belief story",
+		"false belief question",
+		"false photo story",
+		"false photo question",
+		"false photo story",
+		"false photo question",
+		"false belief story",
+		"false belief question",
+		"false belief story",
+		"false belief question",
+		"false photo story",
+		"false photo question",
+		"false belief story",
+		"false belief question"
+	]
+}

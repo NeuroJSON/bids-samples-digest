@@ -1,0 +1,15 @@
+{
+	"filename":[
+		"eeg/sub-07_ses-walk_task-dualWalking_eeg.vhdr",
+		"motion/sub-07_ses-walk_task-dualWalking_tracksys-PhaseSpace1_motion.tsv",
+		"motion/sub-07_ses-walk_task-dualWalking_tracksys-PhaseSpace2_motion.tsv",
+		"motion/sub-07_ses-walk_task-dualWalking_tracksys-PhaseSpace3_motion.tsv",
+		"motion/sub-07_ses-walk_task-dualWalking_tracksys-PhaseSpace4_motion.tsv",
+		"motion/sub-07_ses-walk_task-dualWalking_tracksys-PhaseSpace5_motion.tsv",
+		"motion/sub-07_ses-walk_task-dualWalking_tracksys-PhaseSpace6_motion.tsv",
+		"motion/sub-07_ses-walk_task-dualWalking_tracksys-PhaseSpace7_motion.tsv",
+		"motion/sub-07_ses-walk_task-dualWalking_tracksys-PhaseSpace8_motion.tsv",
+		"motion/sub-07_ses-walk_task-dualWalking_tracksys-PhaseSpace9_motion.tsv"
+	],
+	"acq_time":[1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31]
+}

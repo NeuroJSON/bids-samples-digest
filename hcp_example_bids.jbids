@@ -1,0 +1,26 @@
+{
+	"dataset_description.json":{
+		"BIDSVersion":"1.0.2",
+		"License":"Custom",
+		"Name":"Human Connectome Project"
+	},
+	"sub-100307":{
+		"anat":{
+			"sub-100307_T1w.json":{
+				"EffectiveEchoSpacing":7.4e-06,
+				"PhaseEncodingDirection":"k"
+			},
+			"sub-100307_T2w.json":{
+				"EffectiveEchoSpacing":2.1e-06,
+				"PhaseEncodingDirection":"k"
+			}
+		},
+		"fmap":{
+			"sub-100307_acq-forT1w_phasediff.json":{
+				"EchoTime1":0.00492,
+				"EchoTime2":0.00738,
+				"IntendedFor":"anat/sub-100307_T1w.nii.gz"
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"onset":[132.185370960201,132.28837047005,152.380274857295,279.619669354261,399.771097581229,399.872097100595],
+	"duration":[0,0,0,0,0,0],
+	"sample":[132187,132290,152382,279622,399774,399875],
+	"type":[
+		"Markers",
+		"Markers",
+		"Markers",
+		"Markers",
+		"Markers",
+		"Markers"
+	],
+	"value":[
+		"WiimoteButtonB pressed",
+		"WiimoteButtonB released",
+		"BASE-START",
+		"BASE-END",
+		"WiimoteButtonA pressed",
+		"WiimoteButtonA released"
+	]
+}

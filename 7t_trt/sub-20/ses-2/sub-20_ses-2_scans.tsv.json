@@ -1,0 +1,19 @@
+{
+	"filename":[
+		"func/sub-20_ses-2_task-rest_acq-fullbrain_run-1_bold.nii.gz",
+		"func/sub-20_ses-2_task-rest_acq-fullbrain_run-2_bold.nii.gz",
+		"func/sub-20_ses-2_task-rest_acq-prefrontal_bold.nii.gz"
+	],
+	"positive":[35,30,30],
+	"negative":[75,65,75],
+	"future":[70,30,25],
+	"past":[75,30,90],
+	"myself":[20,75,30],
+	"people":[80,35,75],
+	"surroundings":[60,70,35],
+	"vigilance":[40,35,35],
+	"images":[65,30,80],
+	"words":[30,45,70],
+	"specific_vague":[65,70,70],
+	"intrusive":[30,30,20]
+}

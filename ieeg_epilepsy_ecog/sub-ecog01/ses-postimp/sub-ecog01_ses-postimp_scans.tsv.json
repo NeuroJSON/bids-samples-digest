@@ -1,0 +1,7 @@
+{
+	"filename":[
+		"anat/sub-ecog01_ses-postimp_T1w.nii.gz",
+		"ieeg/sub-ecog01_ses-postimp_task-seizure_run-01_ieeg.eeg"
+	],
+	"acq_time":[1900,-1,-1,1900,-1,-1]
+}

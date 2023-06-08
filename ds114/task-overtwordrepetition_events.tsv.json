@@ -1,0 +1,13 @@
+{
+	"onset":[20,80,140,200,260,320],
+	"duration":[30,30,30,30,30,30],
+	"weight":[1,1,1,1,1,1],
+	"trial_type":[
+		"Task",
+		"Task",
+		"Task",
+		"Task",
+		"Task",
+		"Task"
+	]
+}

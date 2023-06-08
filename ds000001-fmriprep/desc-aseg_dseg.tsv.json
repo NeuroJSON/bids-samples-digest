@@ -1,0 +1,27 @@
+{
+	"index":[0,1,2,3,4,5,6,7,8,9],
+	"name":[
+		"\"Unknown\"",
+		"\"Left-Cerebral-Exterior\"",
+		"\"Left-Cerebral-White-Matter\"",
+		"\"Left-Cerebral-Cortex\"",
+		"\"Left-Lateral-Ventricle\"",
+		"\"Left-Inf-Lat-Vent\"",
+		"\"Left-Cerebellum-Exterior\"",
+		"\"Left-Cerebellum-White-Matter\"",
+		"\"Left-Cerebellum-Cortex\"",
+		"\"Left-Thalamus-unused\""
+	],
+	"color":[
+		"#000000",
+		"#4682b4",
+		"#f5f5f5",
+		"#cd3e4e",
+		"#781286",
+		"#c43afa",
+		"#009400",
+		"#dcf8a4",
+		"#e69422",
+		"#00760e"
+	]
+}

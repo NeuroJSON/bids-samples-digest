@@ -1,0 +1,18 @@
+{
+	"participant_id":[
+		"sub-emptyroom",
+		"sub-0001"
+	],
+	"age":[
+		"n/a",
+		25
+	],
+	"sex":[
+		"n/a",
+		"Male"
+	],
+	"dominant_hand":[
+		"n/a",
+		"Right"
+	]
+}

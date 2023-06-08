@@ -1,0 +1,83 @@
+{
+	"dataset_description.json":{
+		"Authors":[
+			"Sjoerd B. Vos",
+			"David L. Thomas"
+		],
+		"BIDSVersion":"1.5.0",
+		"DatasetType":"raw",
+		"EthicsApprovals":[
+			"This original study from which this BIDS example dataset was derived was approved by the local ethics committee as protocol optimisation procedures"
+		],
+		"HowToAcknowledge":"If you reference this dataset in your publications, please acknowledge its authors.",
+		"License":"This dataset is made available under CC0.",
+		"Name":"ASL_GE_PCASL_3Dspiral"
+	},
+	"sub-Sub103":{
+		"anat":{
+			"sub-Sub103_T1w.json":{
+				"Manufacturer":"GE",
+				"ManufacturersModelName":"DISCOVERY_MR750",
+				"SoftwareVersions":"24_LX_MR_Software_release:DV24.0_R02_1607.b",
+				"MagneticFieldStrength":3,
+				"ReceiveCoilName":"32Ch_Head",
+				"ScanningSequence":"GR",
+				"SequenceVariant":"SS_SP_SK",
+				"ScanOptions":"FAST_GEMS_EDR_GEMS_FILTERED_GEMS_ACC_GEMS",
+				"EchoTime":0.003024,
+				"InversionTime":0.45,
+				"FlipAngle":9,
+				"RepetitionTime":0.007332
+			}
+		},
+		"perf":{
+			"sub-Sub103_asl.json":{
+				"Manufacturer":"GE",
+				"ManufacturersModelName":"DISCOVERY_MR750",
+				"SoftwareVersions":"24_LX_MR_Software_release:DV24.0_R02_1607.b",
+				"MagneticFieldStrength":3,
+				"ReceiveCoilName":"32Ch_Head",
+				"MRAcquisitionType":"3D",
+				"PulseSequenceType":"spiral",
+				"PulseSequenceDetails":"GE 3d spiral pcasl product sequence: 24_LX_MR_Software_release",
+				"ScanningSequence":"RM",
+				"SequenceVariant":"NONE",
+				"ScanOptions":"EDR_GEMS_SPIRAL_GEMS",
+				"EchoTime":0.010528,
+				"FlipAngle":111,
+				"RepetitionTimePreparation":4.886,
+				"ArterialSpinLabelingType":"PCASL",
+				"PostLabelingDelay":2.025,
+				"BackgroundSuppression":true,
+				"M0Type":"Included",
+				"TotalAcquiredPairs":3,
+				"VascularCrushing":false,
+				"AcquisitionVoxelSize":[4,4,8],
+				"BackgroundSuppressionNumberPulses":4,
+				"BackgroundSuppressionPulseTime":[1.965,2.6,3.1,3.38],
+				"LabelingLocationDescription":"~8 cm below the circle of Willis, through the proximal V3 segment of the vertebral arteries",
+				"LabelingDistance":40,
+				"LabelingDuration":1.45
+			},
+			"sub-Sub103_aslcontext.tsv":{
+				"volume_type":[
+					"m0scan",
+					"deltam"
+				]
+			},
+			"sub-Sub103_asllabeling.jpg":{
+				"ImageHeader":{
+					"Filename":"sub-Sub103_asllabeling.jpg",
+					"FileModDate":"17-Apr-2023 09:10:47",
+					"FileSize":94774,
+					"Format":"jpg",
+					"FormatVersion":"",
+					"Width":640,
+					"Height":424,
+					"BitDepth":24,
+					"ColorType":"truecolor"
+				}
+			}
+		}
+	}
+}

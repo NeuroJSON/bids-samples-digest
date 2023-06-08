@@ -1,0 +1,124 @@
+{
+	"dataset_description.json":{
+		"Authors":[
+			"Etienne Bergeron",
+			"Marie-Hélène Bourget",
+			"Julien Cohen-Adad"
+		],
+		"BIDSVersion":"1.7.0",
+		"License":"CC0",
+		"Name":"micr_SEM"
+	},
+	"participants.json":{
+		"participant_id":{
+			"Description":"Unique participant ID"
+		},
+		"sex":{
+			"Description":"sex of the participant",
+			"Levels":{
+				"F":"female",
+				"M":"male"
+			}
+		},
+		"species":{
+			"Description":"Binomial species name from the NCBI Taxonomy (https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi)"
+		},
+		"strain":{
+			"Description":"string value indicating the strain of the species"
+		},
+		"strain_rrid":{
+			"Description":"research resource identifier of the strain of the species from https://scicrunch.org/resources/Organisms/search"
+		}
+	},
+	"participants.tsv":{
+		"participant_id":[
+			"sub-01"
+		],
+		"sex":[
+			"M"
+		],
+		"species":[
+			"mus musculus"
+		],
+		"strain":[
+			"C57BL/6J"
+		],
+		"strain_rrid":[
+			"RRID:IMSR_JAX:000664"
+		]
+	},
+	"samples.json":{
+		"participant_id":{
+			"Description":"Participant ID from whom tissue samples have been acquired"
+		},
+		"sample_id":{
+			"Description":"Sample ID"
+		},
+		"sample_type":{
+			"Description":"Type of sample from ENCODE Biosample Type (https://www.encodeproject.org/profiles/biosample_type)"
+		}
+	},
+	"samples.tsv":{
+		"participant_id":[
+			"sub-01"
+		],
+		"sample_id":[
+			"sample-A"
+		],
+		"sample_type":[
+			"tissue"
+		]
+	},
+	"sub-01":{
+		"ses-01":{
+			"micr":{
+				"sub-01_ses-01_sample-A_SEM.json":{
+					"Manufacturer":"Hamamatsu",
+					"ManufacturersModelName":"C4742-95-12G04",
+					"BodyPart":"CSPINE",
+					"SampleEnvironment":"ex vivo",
+					"SampleFixation":"4% paraformaldehyde, 2% glutaraldehyde",
+					"SliceThickness":1,
+					"TissueDeformationScaling":98,
+					"PixelSize":[0.18,0.18],
+					"PixelSizeUnits":"um"
+				},
+				"sub-01_ses-01_sample-A_SPIM.ome.zarr":{
+					"0":{
+						"0":[]
+					}
+				}
+			}
+		},
+		"ses-02":{
+			"micr":{
+				"sub-01_ses-02_sample-A_SEM.json":{
+					"Manufacturer":"Hamamatsu",
+					"ManufacturersModelName":"C4742-95-12G04",
+					"BodyPart":"CSPINE",
+					"SampleEnvironment":"ex vivo",
+					"SampleFixation":"4% paraformaldehyde, 2% glutaraldehyde",
+					"SliceThickness":1,
+					"TissueDeformationScaling":98,
+					"PixelSize":[0.18,0.18],
+					"PixelSizeUnits":"um"
+				}
+			}
+		},
+		"sub-01_sessions.json":{
+			"session_id":{
+				"Description":"Session ID"
+			},
+			"acq_time":{
+				"Description":"Time when the sample have been acquired"
+			}
+		},
+		"sub-01_sessions.tsv":{
+			"session_id":[
+				"ses-01",
+				"ses-02"
+			],
+			"acq_time":[2015,-11,-4,2015,-11,-5]
+		}
+	}
+}

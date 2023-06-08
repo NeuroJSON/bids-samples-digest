@@ -1,0 +1,43 @@
+{
+	"dataset_description.json":{
+		"BIDSVersion":"1.5.0",
+		"DatasetType":"raw",
+		"Description":"Available as Siemens stock sequence named tfl_b1_map, based on Chun et al. 2010, MRM, 10.1002/mrm.22423. Intended for TB1map.",
+		"License":"CC0",
+		"Name":"Example TB1TFL dataset"
+	},
+	"sub-01":{
+		"fmap":{
+			"sub-01_acq-anat_TB1TFL.json":{
+				"MagneticFieldStrength":"3",
+				"Manufacturer":"Siemens",
+				"ManufacturerModelName":"TrioTim",
+				"PulseSequenceType":"GR",
+				"SequenceName":"tfl_b1_map",
+				"RepetitionTime":"6.8",
+				"FlipAngle":"38",
+				"EchoTime":"1.97",
+				"AcquisitionVoxelSize":[
+					"3",
+					"3",
+					"5"
+				]
+			},
+			"sub-01_acq-famp_TB1TFL.json":{
+				"MagneticFieldStrength":"3",
+				"Manufacturer":"Siemens",
+				"ManufacturerModelName":"TrioTim",
+				"PulseSequenceType":"GR",
+				"SequenceName":"tfl_b1_map",
+				"RepetitionTime":"6.8",
+				"FlipAngle":"38",
+				"EchoTime":"1.97",
+				"AcquisitionVoxelSize":[
+					"3",
+					"3",
+					"5"
+				]
+			}
+		}
+	}
+}

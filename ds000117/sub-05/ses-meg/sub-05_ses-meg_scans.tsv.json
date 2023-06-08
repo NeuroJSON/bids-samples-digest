@@ -1,0 +1,11 @@
+{
+	"filename":[
+		"meg/sub-05_ses-meg_task-facerecognition_run-01_meg.fif",
+		"meg/sub-05_ses-meg_task-facerecognition_run-02_meg.fif",
+		"meg/sub-05_ses-meg_task-facerecognition_run-03_meg.fif",
+		"meg/sub-05_ses-meg_task-facerecognition_run-04_meg.fif",
+		"meg/sub-05_ses-meg_task-facerecognition_run-05_meg.fif",
+		"meg/sub-05_ses-meg_task-facerecognition_run-06_meg.fif"
+	],
+	"acq_time":[2009,-5,-15,2009,-5,-15,2009,-5,-15,2009,-5,-15,2009,-5,-15,2009,-5,-15]
+}

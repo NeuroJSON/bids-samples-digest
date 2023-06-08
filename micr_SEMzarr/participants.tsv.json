@@ -1,0 +1,17 @@
+{
+	"participant_id":[
+		"sub-01"
+	],
+	"sex":[
+		"M"
+	],
+	"species":[
+		"mus musculus"
+	],
+	"strain":[
+		"C57BL/6J"
+	],
+	"strain_rrid":[
+		"RRID:IMSR_JAX:000664"
+	]
+}

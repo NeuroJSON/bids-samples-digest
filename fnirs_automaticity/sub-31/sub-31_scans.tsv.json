@@ -1,0 +1,13 @@
+{
+	"filename":[
+		"nirs/sub-31_task-fingerauto_nirs.snirf",
+		"nirs/sub-31_task-fingernonauto_nirs.snirf",
+		"nirs/sub-31_task-footauto_nirs.snirf",
+		"nirs/sub-31_task-footnonauto_nirs.snirf",
+		"nirs/sub-31_task-fingerautodual_nirs.snirf",
+		"nirs/sub-31_task-fingernonautodual_nirs.snirf",
+		"nirs/sub-31_task-footautodual_nirs.snirf",
+		"nirs/sub-31_task-footnonautodual_nirs.snirf"
+	],
+	"acq_time":[1920,-1,-1,1920,-1,-1,1920,-1,-1,1920,-1,-1,1920,-1,-1,1920,-1,-1,1920,-1,-1,1920,-1,-1]
+}

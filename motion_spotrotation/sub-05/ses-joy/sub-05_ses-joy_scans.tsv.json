@@ -1,0 +1,7 @@
+{
+	"filename":[
+		"eeg/sub-05_ses-joy_task-Rotation_eeg.vhdr",
+		"motion/sub-05_ses-joy_task-Rotation_tracksys-VIRPos_motion.tsv"
+	],
+	"acq_time":[1800,-12,-31,1800,-12,-31]
+}

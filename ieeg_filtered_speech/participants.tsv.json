@@ -1,0 +1,21 @@
+{
+	"participant_id":[
+		"sub-cm4",
+		"sub-jh17",
+		"sub-cm8",
+		"sub-jh19",
+		"sub-ir05",
+		"sub-ir07",
+		"sub-ir08"
+	],
+	"age":[37,37,22,51,38,23,51],
+	"gender":[
+		"f",
+		"f",
+		"f",
+		"f",
+		"m",
+		"m",
+		"m"
+	]
+}

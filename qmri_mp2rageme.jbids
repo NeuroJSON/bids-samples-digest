@@ -1,0 +1,160 @@
+{
+	"dataset_description.json":{
+		"Authors":[
+			"Gilles Hollander",
+			"Wietske van der Zwaag"
+		],
+		"BIDSVersion":"1.5.0",
+		"DatasetType":"raw",
+		"License":"CC0",
+		"Name":"Example MP2RAGE-ME dataset for BEP-001"
+	},
+	"derivatives":{
+		"pymp2rage":{
+			"dataset_description.json":{
+				"Name":"PyMP2RAGE estimate",
+				"BIDSVersion":"1.5.0",
+				"DatasetType":"derivative",
+				"License":"CC0",
+				"SourceDatasets":[
+					"../../"
+				],
+				"GeneratedBy":[
+					{
+						"Name":"pymp2rage",
+						"Version":"v0.1"
+					},
+					{
+						"Name":"Manual",
+						"Description":"Adjusted to conform to BIDS Derivatives"
+					}
+				]
+			},
+			"sub-1":{
+				"anat":{
+					"sub-1_R2starmap.json":{
+						"RawSources":[
+							"sub-1/anat/sub-1_echo-1_inv-2_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_echo-2_inv-2_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_echo-3_inv-2_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_echo-4_inv-2_part-mag_MP2RAGE.nii"
+						],
+						"EstimationAlgorithm":"Ordinary Least Squares in Log-space",
+						"EstimationSoftwareName":"pymp2rage",
+						"EstimationSoftwareVer":"v0.1",
+						"EstimationSoftwareLang":"Python 3.6",
+						"EstimationSoftwareEnv":"Mac OS X 10.14.5"
+					},
+					"sub-1_T1map.json":{
+						"RawSources":[
+							"sub-1/anat/sub-1_inv-1_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_inv-1_part-phase_MP2RAGE.nii",
+							"sub-1/anat/sub-1_echo-1_inv-2_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_echo-1_inv-2_part-phase_MP2RAGE.nii",
+							"sub-1/fmap/sub-1_B1map.nii"
+						],
+						"EstimationReference":"Caan et al., 2019",
+						"EstimationAlgorithm":"MP2RAGE T1 map",
+						"EstimationSoftwareName":"pymp2rage",
+						"EstimationSoftwareVer":"v0.1",
+						"EstimationSoftwareLang":"Python 3.6",
+						"EstimationSoftwareEnv":"Mac OS X 10.14.5"
+					},
+					"sub-1_T2starmap.json":{
+						"RawSources":[
+							"sub-1/anat/sub-1_echo-1_inv-2_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_echo-2_inv-2_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_echo-3_inv-2_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_echo-4_inv-2_part-mag_MP2RAGE.nii"
+						],
+						"EstimationReference":"Caan et al., 2019",
+						"EstimationAlgorithm":"Ordinary Least Squares in Log-space",
+						"EstimationSoftwareName":"pymp2rage",
+						"EstimationSoftwareVer":"v0.1",
+						"EstimationSoftwareLang":"Python 3.6",
+						"EstimationSoftwareEnv":"Mac OS X 10.14.5"
+					},
+					"sub-1_UNIT1.json":{
+						"RawSources":[
+							"sub-1/anat/sub-1_inv-1_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_inv-1_part-phase_MP2RAGE.nii",
+							"sub-1/anat/sub-1_echo-1_inv-2_part-mag_MP2RAGE.nii",
+							"sub-1/anat/sub-1_echo-1_inv-2_part-phase_MP2RAGE.nii",
+							"sub-1/fmap/sub-1_B1map.nii"
+						],
+						"EstimationReference":"Caan et al., 2019",
+						"EstimationAlgorithm":"MP2RAGE unified T1-weighted image",
+						"EstimationSoftwareName":"pymp2rage",
+						"EstimationSoftwareVer":"v0.1",
+						"EstimationSoftwareLang":"Python 3.6",
+						"EstimationSoftwareEnv":"Mac OS X 10.14.5"
+					}
+				}
+			}
+		}
+	},
+	"sub-1":{
+		"anat":{
+			"sub-1_echo-1_inv-2_MP2RAGE.json":{
+				"InversionTime":3.855,
+				"FlipAngle":6,
+				"RepetitionTimeExcitation":0.032,
+				"RepetitionTimePreparation":6.723,
+				"NumberShots":150,
+				"EchoTime":0.006,
+				"MagneticFieldStrength":7
+			},
+			"sub-1_echo-2_inv-2_MP2RAGE.json":{
+				"InversionTime":3.855,
+				"FlipAngle":6,
+				"RepetitionTimeExcitation":0.032,
+				"RepetitionTimePreparation":6.723,
+				"NumberShots":150,
+				"EchoTime":0.0145,
+				"MagneticFieldStrength":7
+			},
+			"sub-1_echo-3_inv-2_MP2RAGE.json":{
+				"InversionTime":3.855,
+				"FlipAngle":6,
+				"RepetitionTimeExcitation":0.032,
+				"RepetitionTimePreparation":6.723,
+				"NumberShots":150,
+				"EchoTime":0.023,
+				"MagneticFieldStrength":7
+			},
+			"sub-1_echo-4_inv-2_MP2RAGE.json":{
+				"InversionTime":3.855,
+				"FlipAngle":6,
+				"RepetitionTimeExcitation":0.032,
+				"RepetitionTimePreparation":6.723,
+				"NumberShots":150,
+				"EchoTime":0.0315,
+				"MagneticFieldStrength":7
+			},
+			"sub-1_inv-1_MP2RAGE.json":{
+				"InversionTime":0.67,
+				"FlipAngle":7,
+				"RepetitionTimeExcitation":0.0062,
+				"RepetitionTimePreparation":6.723,
+				"NumberShots":150,
+				"MagneticFieldStrength":7
+			}
+		},
+		"fmap":{
+			"sub-1_TB1map.json":{
+				"IntendedFor":[
+					"anat/sub-1_echo-1_inv-2_part-mag_MP2RAGE.nii",
+					"anat/sub-1_echo-1_inv-2_part-phase_MP2RAGE.nii",
+					"anat/sub-1_echo-2_inv-2_part-mag_MP2RAGE.nii",
+					"anat/sub-1_echo-2_inv-2_part-phase_MP2RAGE.nii",
+					"anat/sub-1_echo-3_inv-2_part-mag_MP2RAGE.nii",
+					"anat/sub-1_echo-3_inv-2_part-phase_MP2RAGE.nii",
+					"anat/sub-1_echo-4_inv-2_part-mag_MP2RAGE.nii",
+					"anat/sub-1_echo-4_inv-2_part-phase_MP2RAGE.nii",
+					"anat/sub-1_inv-1_part-mag_MP2RAGE.nii",
+					"anat/sub-1_inv-1_part-phase_MP2RAGE.nii"
+				]
+			}
+		}
+	}
+}

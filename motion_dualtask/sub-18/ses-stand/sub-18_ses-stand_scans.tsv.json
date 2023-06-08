@@ -1,0 +1,15 @@
+{
+	"filename":[
+		"eeg/sub-18_ses-stand_task-dualWalking_run-3_eeg.vhdr",
+		"motion/sub-18_ses-stand_task-dualWalking_tracksys-PhaseSpace1_run-3_motion.tsv",
+		"motion/sub-18_ses-stand_task-dualWalking_tracksys-PhaseSpace2_run-3_motion.tsv",
+		"motion/sub-18_ses-stand_task-dualWalking_tracksys-PhaseSpace3_run-3_motion.tsv",
+		"motion/sub-18_ses-stand_task-dualWalking_tracksys-PhaseSpace4_run-3_motion.tsv",
+		"motion/sub-18_ses-stand_task-dualWalking_tracksys-PhaseSpace5_run-3_motion.tsv",
+		"motion/sub-18_ses-stand_task-dualWalking_tracksys-PhaseSpace6_run-3_motion.tsv",
+		"motion/sub-18_ses-stand_task-dualWalking_tracksys-PhaseSpace7_run-3_motion.tsv",
+		"motion/sub-18_ses-stand_task-dualWalking_tracksys-PhaseSpace8_run-3_motion.tsv",
+		"motion/sub-18_ses-stand_task-dualWalking_tracksys-PhaseSpace9_run-3_motion.tsv"
+	],
+	"acq_time":[1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31,1800,-12,-31]
+}
