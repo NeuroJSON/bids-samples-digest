@@ -1,7 +1,7 @@
 {
 	"acq-NODDI10DIR_dwi.json":{
 		"EchoTime":0.098,
-		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mÿ1",
+		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mâˆ’1",
 		"MagneticFieldStrength":1.5,
 		"Manufacturer":"Siemens",
 		"ManufacturersModelName":"Avanto ",
@@ -10,7 +10,7 @@
 	},
 	"acq-NODDI33DIR_dwi.json":{
 		"EchoTime":0.098,
-		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mÿ1",
+		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mâˆ’1",
 		"MagneticFieldStrength":1.5,
 		"Manufacturer":"Siemens",
 		"ManufacturersModelName":"Avanto ",
@@ -19,7 +19,7 @@
 	},
 	"acq-NODDI66DIR_dwi.json":{
 		"EchoTime":0.098,
-		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mÿ1",
+		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mâˆ’1",
 		"MagneticFieldStrength":1.5,
 		"Manufacturer":"Siemens",
 		"ManufacturersModelName":"Avanto ",
@@ -29,7 +29,7 @@
 	"acq-y224_T1w.json":{
 		"EchoTime":0.494,
 		"FlipAngle":15,
-		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mÿ1",
+		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mâˆ’1",
 		"MagneticFieldStrength":1.5,
 		"Manufacturer":"Siemens",
 		"ManufacturersModelName":"Avanto ",
@@ -39,7 +39,7 @@
 	"acq-y232_T1w.json":{
 		"EchoTime":0.0494,
 		"FlipAngle":15,
-		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mÿ1",
+		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mâˆ’1",
 		"MagneticFieldStrength":1.5,
 		"Manufacturer":"Siemens",
 		"ManufacturersModelName":"Avanto ",
@@ -104,7 +104,7 @@
 	"task-rest_bold.json":{
 		"EchoTime":0.03,
 		"FlipAngle":75,
-		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mÿ1",
+		"GradientSetType":"self-shielded gradient set with maximum gradient amplitude of 40 mT mâˆ’1",
 		"MagneticFieldStrength":1.5,
 		"Manufacturer":"Siemens",
 		"ManufacturersModelName":"Avanto ",

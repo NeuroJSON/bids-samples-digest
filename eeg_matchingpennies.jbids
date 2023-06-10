@@ -15,7 +15,7 @@
 		"License":"PDDL (https://opendatacommons.org/licenses/pddl/1-0/)",
 		"Name":"Matching Pennies",
 		"ReferencesAndLinks":[
-			"Matthias Schultze-Kraft et al. ˇPredicting Motor Intentions with Closed-Loop Brain-Computer Interfacesˇ. In: Springer Briefs in Electrical and Computer Engineering. Springer International Publishing, 2017, pp. 79ˇ90. https://doi.org/10.1007/978-3-319-64373-1_8."
+			"Matthias Schultze-Kraft et al. ‚ÄúPredicting Motor Intentions with Closed-Loop Brain-Computer Interfaces‚Äù. In: Springer Briefs in Electrical and Computer Engineering. Springer International Publishing, 2017, pp. 79‚Äì90. https://doi.org/10.1007/978-3-319-64373-1_8."
 		]
 	},
 	"participants.json":{
@@ -95,7 +95,7 @@
 		"left_hand.png":{
 			"ImageHeader":{
 				"Filename":"left_hand.png",
-				"FileModDate":"17-Apr-2023 09:10:47",
+				"FileModDate":"17-Apr-2023 12:10:47",
 				"FileSize":136755,
 				"Format":"png",
 				"FormatVersion":[],
@@ -108,7 +108,7 @@
 		"right_hand.png":{
 			"ImageHeader":{
 				"Filename":"right_hand.png",
-				"FileModDate":"17-Apr-2023 09:10:47",
+				"FileModDate":"17-Apr-2023 12:10:47",
 				"FileSize":145473,
 				"Format":"png",
 				"FormatVersion":[],
@@ -9158,7 +9158,7 @@
 		"SamplingFrequency":5000,
 		"SoftwareFilters":"n/a",
 		"SoftwareVersions":"Labstreaming Layer BrainAmpSeries 1.11",
-		"TaskDescription":"The task is emulating a game of 'matching pennies', where for each trial a subject and a computer agent both make a binary choice (here in the form of showing a left or right hand) at the same time. Crucially, one of the two players wins whenever the binary choice is equal, while the other player wins whenever the binary choice is not equal. Practically, subjects were seated in front of a computer screen on a desk with two computer mice glued to the desk at approximately 1 meter distance. The experiment consisted of three stages, separated by short breaks. Each stage contained 100 single trials. A subject started each trial in a self-paced manner by pressing down the outermost buttons of the two computer mice using their left and right ringfinger respectively while resting the hands calmly on the table. Pressing down both keys started a three-second countdown that was shown on the computer screen as a continuous shrinking of a horizontal bar. Throughout the countdown, subjects were focusing on a fixation stimulus in the middle of the computer screen. At then end of the countdown, subjects were supposed to quickly raise one of the two hands ˇas if to show the palm to the computerˇ. The movement was supposed to happen precisely timed with the end of the countdown. To ensure this, there was a 200 ms window at the end of the countdown during which the movement was required to occur. If the movement occurred outside this time window or if both buttons were released, the trial was restarted. Otherwise, the computerˇs choice (left or right) was shown on the screen in the form of a left or right hand stimulus. If the subjectˇs choice was the same as the computerˇs, this was a win trial for the computer. Otherwise, it was a win trial for the subject. This task was modeled after the task in Matthias Schultze-Kraft et al. ˇPredicting Motor Intentions with Closed-Loop Brain-Computer Interfacesˇ. In: Springer Briefs in Electrical and Computer Engineering. Springer International Publishing, 2017, pp. 79ˇ90. doi: 10.1007/978-3-319-64373-1_8.",
+		"TaskDescription":"The task is emulating a game of 'matching pennies', where for each trial a subject and a computer agent both make a binary choice (here in the form of showing a left or right hand) at the same time. Crucially, one of the two players wins whenever the binary choice is equal, while the other player wins whenever the binary choice is not equal. Practically, subjects were seated in front of a computer screen on a desk with two computer mice glued to the desk at approximately 1 meter distance. The experiment consisted of three stages, separated by short breaks. Each stage contained 100 single trials. A subject started each trial in a self-paced manner by pressing down the outermost buttons of the two computer mice using their left and right ringfinger respectively while resting the hands calmly on the table. Pressing down both keys started a three-second countdown that was shown on the computer screen as a continuous shrinking of a horizontal bar. Throughout the countdown, subjects were focusing on a fixation stimulus in the middle of the computer screen. At then end of the countdown, subjects were supposed to quickly raise one of the two hands ‚Äúas if to show the palm to the computer‚Äù. The movement was supposed to happen precisely timed with the end of the countdown. To ensure this, there was a 200 ms window at the end of the countdown during which the movement was required to occur. If the movement occurred outside this time window or if both buttons were released, the trial was restarted. Otherwise, the computer‚Äôs choice (left or right) was shown on the screen in the form of a left or right hand stimulus. If the subject‚Äôs choice was the same as the computer‚Äôs, this was a win trial for the computer. Otherwise, it was a win trial for the subject. This task was modeled after the task in Matthias Schultze-Kraft et al. ‚ÄúPredicting Motor Intentions with Closed-Loop Brain-Computer Interfaces‚Äù. In: Springer Briefs in Electrical and Computer Engineering. Springer International Publishing, 2017, pp. 79‚Äì90. doi: 10.1007/978-3-319-64373-1_8.",
 		"TaskName":"matchingpennies"
 	},
 	"task-matchingpennies_events.json":{
